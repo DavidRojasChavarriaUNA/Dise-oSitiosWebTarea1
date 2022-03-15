@@ -1,0 +1,104 @@
+body {
+  background-color: #ffffff;
+}
+
+.menu ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+  .menu ul.izquierda li {
+    float: left;
+  }
+
+  .menu ul.derecha li {
+    float: right;
+  }
+
+  .menu ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 5px;
+  }
+
+    .menu ul li a {
+      color: black;
+      text-decoration: none;
+    }
+
+    .menu ul li img {
+      max-height: 20px;
+      max-width: 20px;
+    }
+
+      .menu ul li a:hover {
+        color: gray;
+      }
+
+    .menu ul li img:hover {
+      max-height: 22px;
+      max-width: 22px;
+    }
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+header{
+  overflow: auto;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+.min-height{
+  min-height: 1px;
+}
+
+.img-responsive{
+  width: 100%;
+}
+
+.small-button {
+  padding: 0 10px;
+}
+
+.big-button {
+  padding: 0 10px;
+  height: 50px;
+}
+
+.text-bigger{
+  font-size:18px;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: Calc(100% - 60px);
+  margin: 0 30px;
+}
+
+.fondoMorado {
+  background-color: #7239b3;
+}
+
+.white-text{
+  color: #ffffff;
+}
+
+#AppQueNecesita {
+  background-image: url("../images/wallpaper.jpg")
+}
+
+.vertical-align-middle{
+  vertical-align: middle;
+}
